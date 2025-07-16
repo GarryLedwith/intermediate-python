@@ -58,3 +58,12 @@ print("Intersection of odds and evens:", i)  # Output: set() (no common elements
 # Intersection with primes
 i_primes = odds.intersection(primes)
 print("Intersection of odds and primes:", i_primes)  # Output: {3, 5, 7}
+
+# calculating the difference between sets
+setA = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+setB = {1, 2, 3, 10, 11, 12}
+difference = setA.difference(setB)  # or setA - setB
+print("Difference between setA and setB:", difference)  # Output: {1, 2, 3}
+
+dirrerence2 = setB.difference(setA)  # or setB - setA
+print("Difference between setB and setA:", dirrerence2)  # Output: {10, 11, 12}
