@@ -1,4 +1,4 @@
-# Sets are unordered collections of unique elements.
+# Sets are unordered collections of unique elements, and are mutable.
 # They are defined using curly braces {} or the set() constructor.
 # single element sets require a trailing comma.
 # Sets are useful for membership testing and eliminating duplicate entries.
@@ -71,3 +71,10 @@ print("Difference between setB and setA:", dirrerence2)  # Output: {10, 11, 12}
 # symmetric difference (elements that are in either set but not in both)
 symmetric_diff = setA.symmetric_difference(setB)  # or setA ^ setB
 print("Symmetric difference between setA and setB:", symmetric_diff)  # Output: {4, 5, 6, 7, 8, 9, 10, 11, 12}
+
+setA.update(setB)  # Update setA with elements from setB (union)
+print("Updated setA after union with setB:", setA)  # Output: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}   
+
+# intersection update (keep only elements that are in both sets)
+setA.intersection_update(setB)  # Keep only elements that are in both sets
+print("setA after intersection update with setB:", setA)  # Output: {1, 2, 3}
