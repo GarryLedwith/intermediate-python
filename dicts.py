@@ -51,3 +51,17 @@ for value in mydict1.values():
 print("Looping through key-value pairs:")
 for key, value in mydict1.items():
     print(f"{key}: {value}")  # Printing key-value pairs
+    
+# copying a dictionary
+mydict3 = mydict1.copy()  # Creating a shallow copy of the dictionary (pass by value)
+print(mydict1)  # Original dictionary remains unchanged
+print(mydict3)
+
+# modifying the copy
+mydict3['name'] = 'Bob'  # Changing the value of 'name'
+print(mydict3)  # Output: {'name': 'Bob', 'email':
+print(mydict1)  # Original dictionary remains unchanged
+
+mydict4 = mydict1  # Creating a reference to the original dictionary (pass by reference)
+mydict4['name'] = 'Charlie'  # Modifying the reference will change the original dictionary
+print(mydict1)  # Output: {'name': 'Charlie', 'email': '
