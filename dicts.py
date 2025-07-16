@@ -46,3 +46,8 @@ for key in mydict1.keys():
 print("Looping through values:")
 for value in mydict1.values():
     print(value)  # Printing values
+    
+# Looping through with key and value pairs
+print("Looping through key-value pairs:")
+for key, value in mydict1.items():
+    print(f"{key}: {value}")  # Printing key-value pairs
