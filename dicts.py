@@ -31,3 +31,18 @@ try:
     value = mydict1['age']  # Trying to access a key that may not exist
 except KeyError:
     print("Key 'age' does not exist in mydict1")    
+    
+# Looping through a dictionary
+print("Looping through mydict1:")
+for key in mydict1:  # Looping through keys
+    print(f"{key}: {mydict1[key]}")  # Accessing value by key
+    
+# Looping through with keys method
+print("Looping through keys:")
+for key in mydict1.keys():
+    print(key)  # Printing keys
+    
+# Looping through with values method
+print("Looping through values:")
+for value in mydict1.values():
+    print(value)  # Printing values
