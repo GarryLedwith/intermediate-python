@@ -67,3 +67,7 @@ print("Difference between setA and setB:", difference)  # Output: {1, 2, 3}
 
 dirrerence2 = setB.difference(setA)  # or setB - setA
 print("Difference between setB and setA:", dirrerence2)  # Output: {10, 11, 12}
+
+# symmetric difference (elements that are in either set but not in both)
+symmetric_diff = setA.symmetric_difference(setB)  # or setA ^ setB
+print("Symmetric difference between setA and setB:", symmetric_diff)  # Output: {4, 5, 6, 7, 8, 9, 10, 11, 12}
