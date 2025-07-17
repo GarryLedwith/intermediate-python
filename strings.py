@@ -8,3 +8,9 @@ substring3 = my_string[:-1]  # Reversing the string
 print(substring)  # Output: singl
 print(substring2)  # Output: sgleine trng
 print(substring3)  # Output: single line string
+
+my_list = my_string.split()  # Splitting the string into a list of words
+print(my_list)  # Output: ['single', 'line', 'string']
+new_string = ' '.join(my_list)  # Joining the list back into a string
+print(new_string)  # Output: singlelinestring
+
