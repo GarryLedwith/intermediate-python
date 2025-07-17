@@ -1,0 +1,13 @@
+# Intermediate Python Course 
+## Course Overview 
+This course buuilds on Python fundamental and covers intermediate concepts including: 
+- Collections 
+- Lambda Functions 
+- Exception Handling 
+- Logging 
+- JSON
+- Generators
+- Decorators 
+- Thredding vs. Multiprocessing 
+- Multithredding 
+- Copying 
