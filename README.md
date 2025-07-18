@@ -6,8 +6,10 @@ This course buuilds on Python fundamentals and covers intermediate concepts incl
 - Exception Handling 
 - Logging 
 - JSON
+- Iterators
 - Generators
 - Decorators 
 - Thredding vs. Multiprocessing 
 - Multithredding 
 - Copying 
+- Context Management 
