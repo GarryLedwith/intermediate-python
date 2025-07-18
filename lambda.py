@@ -9,3 +9,9 @@ print(add(2, 3))  # Output: 5
 
 add10 = lambda x: x + 10  # A lambda function that adds 10 to its argument
 print(add10(5))  # Output: 15
+
+# sorted lists example using lambda
+points2D = [(1, 2), (3, 1), (5, 0), (2, 4)]
+# Sort points by the second element of the tuple
+sorted_points = sorted(points2D, key=lambda point: point[1])
+print(sorted_points)  # Output: [(5, 0), (3, 1), (1, 2), (2, 4)]
